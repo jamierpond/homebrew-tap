@@ -1,21 +1,21 @@
 class Lockstep < Formula
   desc "Hermetic CMake dependencies with a lock file and content hashes"
   homepage "https://github.com/jamierpond/lockstep"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
-    url "https://github.com/jamierpond/lockstep/releases/download/v0.3.0/lockstep-0.3.0-macos-arm64"
-    sha256 "b67c0ded9302edf153fa576f00c4ce93340fd57b06d4c6effc029d2707101193"
+    url "https://github.com/jamierpond/lockstep/releases/download/v0.4.0/lockstep-0.4.0-macos-arm64"
+    sha256 "6cc4f4429ea1ca1ebca8d78619b3d0ad2e5c49e7ff44ac422963ada481c2c892"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jamierpond/lockstep/releases/download/v0.3.0/lockstep-0.3.0-linux-x64"
-      sha256 "52397b392ac4a7a364a4a8f1dc0ff189e728d297790527384f5c959561d6e66d"
+      url "https://github.com/jamierpond/lockstep/releases/download/v0.4.0/lockstep-0.4.0-linux-x64"
+      sha256 "818b012ee8ab5c5deb4c95fecd5e6a14f1ad6258ecfd09e883fd85ab62b68aa0"
     end
     on_arm do
-      url "https://github.com/jamierpond/lockstep/releases/download/v0.3.0/lockstep-0.3.0-linux-arm64"
-      sha256 "d919da1823f91a0c2663ad9480b4c267e37536ff06147a547fa6a08664702585"
+      url "https://github.com/jamierpond/lockstep/releases/download/v0.4.0/lockstep-0.4.0-linux-arm64"
+      sha256 "cda66d05c4970698159fb19b516c800f862eba204361735a3547b5ebee8b4bf4"
     end
   end
 
